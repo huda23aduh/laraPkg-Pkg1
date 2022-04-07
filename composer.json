@@ -1,0 +1,25 @@
+{
+    "name": "huda/pkg1",
+    "description": "huda package 1 test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Huda\\Pkg1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huda",
+            "email": "huda23aduh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Huda\\Pkg1\\Pkg1ServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
